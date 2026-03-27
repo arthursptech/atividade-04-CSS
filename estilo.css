@@ -69,31 +69,15 @@ h1 {
 
 .container-exercicioB {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
 }
 
-.container-exercicioB .box1 {
-    order: 4;
-}
-.container-exercicioB .box2 {
-    order: 3;
-}
-.container-exercicioB .box3 {
-    order: 2;
-}
+
 
 .container-desafio {
     display: flex;
-    justify-content: flex-start;
-}
-
-.container-desafio .box1 {
-    order: 4;
-}
-.container-desafio .box2 {
-    order: 3;
-}
-.container-desafio .box3 {
-    order: 2;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
 }
 
